@@ -1,6 +1,7 @@
 body{
     font-family: 'Righteous', cursive;
     margin: 0;
+    padding: 0;
 }
 .intro-left{
     padding: 50px;
@@ -57,8 +58,28 @@ p{
 .about-right p{
     padding-bottom: 30px;
 }
-
-
+.my-recipies{
+    height: 1100px;
+}
+.my-recipies img{
+    width: 100%;
+}
+.myrecipies-bottom{
+    display: flex;
+}
+.mct{
+    text-align: center;
+    padding: 30px;
+}
+.mct p{
+    padding: 0 20%;
+}
+.box-shadow{
+    padding: 30px ;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgb(214, 207, 207), -10px -10px 10px 10px rgb(218, 215, 215);
+    margin-right: 30px;
+}
 
 
 
